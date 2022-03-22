@@ -1,0 +1,47 @@
+@import "../../styles/variables/variables.scss";
+
+.navbar {
+  width: 30%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+
+  &__logo {
+    font-size: 2rem;
+    font-family: "Monoton", cursive;
+    color: #fff;
+
+    &-container {
+      background-color: #000;
+      width: 30%;
+      text-align: center;
+      margin-left: 3rem;
+    }
+  }
+
+  &__links-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding-left: 0.5rem;
+    transition: 0.3s;
+
+    & i {
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      background-color: $primaryYellow;
+    }
+  }
+}

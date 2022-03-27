@@ -1,3 +1,5 @@
+@import "./styles/variables/variables.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +8,5 @@
 }
 
 body {
-  background-color: #b4b7c0;
+  background-color: $bgColor;
 }

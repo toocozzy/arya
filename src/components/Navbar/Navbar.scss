@@ -3,6 +3,7 @@
 .navbar {
   width: 4rem;
   height: 100vh;
+  position: absolute;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
   overflow: hidden;
@@ -38,7 +39,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .navbar {
     position: fixed;
     bottom: 0;
